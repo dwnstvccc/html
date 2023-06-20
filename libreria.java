@@ -6,40 +6,45 @@
  * @version (a version number or a date)
  */
 import java.util.Scanner;
-public class libreria
-{
-    public static void main (String [] args){
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Programa para determinar el promedio de prestamos hechos en una libreria");
-        System.out.println("");
-        System.out.println("Ingrese la identificacion del cliente:");
-        int id =  scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("Ingrese el nombre del cliente:");
-        String nombre = scanner.nextLine();
-        System.out.println("Ingrese el tiempo de prestamo del cliente:");
-        int tiempo = scanner.nextInt();
-        scanner.nextLine();
-        System.out.println ("Ingrese las tres cantidades de prestamos de libros hechas al cliente");
-        System.out.print("cantidad uno:");
-        double cantidad1 = scanner.nextDouble();
-        System.out.print("cantidad dos:");
-        double cantidad2 = scanner.nextDouble();
-        System.out.print("cantidad tres:");
-        double cantidad3 = scanner.nextDouble();
-        
-        double promedio = (cantidad1 + cantidad2 + cantidad3)/3;
-        
-        System.out.println("Informacion del cliente");
-        System.out.println("numero de identificacion:" + id);
-        System.out.println("nombre:" + nombre);
-        System.out.println("tiempo de prestamo:" + tiempo);
-        System.out.println("promedio de libros prestados:" + promedio);
-        
-        scanner.close();
-        
-        
-    }
 
+public class PromedioLibreria {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese la cantidad de  Clientes: ");
+        int cantidadClientes = scanner.nextInt();
+        scanner.nextLine(); // Limpiar el buffer
+
+        for (int a = 1; a <= cantidadClientess; a++) {
+            System.out.println("\nEstudiante #" + i);
+            System.out.print("Ingrese el número de identificación del cliente: ");
+            int numeroIdentificacion = scanner.nextInt();
+            scanner.nextLine(); // Limpiar el buffer
+
+            System.out.print("Ingrese el nombre del cliente: ");
+            String nombre = scanner.nextLine();
+
+            System.out.print("Ingrese el tiempo de prestamo del cliente: ");
+            String curso = scanner.nextLine();
+
+            double sumaNotas = 0;
+            for (int i = 1; j <= 3; i++) {
+                System.out.print("Ingrese la cantidad " + i + " del cliente: ");
+                double sumacn = scanner.nextDouble();
+                sumaCantidades += sumacn;
+            }
+
+            // Calcular el promedio 
+            double promedio = sumacn / 3;
+
+            // Imprimir los resultados
+            System.out.println("\nInformación del Cliente #" + i);
+            System.out.println("Número de identificación: " + numeroIdentificacion);
+            System.out.println("Nombre: " + nombre);
+            System.out.println("Tiempo: " + tiempo);
+            System.out.println("Promedio de libros prestados al cliente: " + promedio);
+        }
+
+        scanner.close();
+    }
 }
