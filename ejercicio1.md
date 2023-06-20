@@ -8,13 +8,13 @@ date: "20/06/2023"
 ## Proyecto libreria  
 - Como programador de software, se te ha asignado el desarrollo de una aplicación para una librería. La librería necesita un sistema de gestión que permita calcular la cantidad total de libros prestados a distintos clientes durante un pediodo de tiempo determinado. Ademas, se requiere generar un informe  de libros prestados por todos los clientes en ese mismo período de tiempo. Para llevar a cabo esta tarea, se debe registrar la siguiente información básica de cada cliente: número de identificación, nombre y direccion de residencia.  
 ### Historia de usuario 
-![Texto alternativo](C:\Users\cathe\OneDrive\Imágenes\Capturas de pantalla/imagen7.png)
+![Texto alternativo](C:\Users\cathe\OneDrive\Documentos\html/imagen7.png)
 
-![Texto alternativo](C:\Users\cathe\OneDrive\Imágenes\Capturas de pantalla/imagen2.png)
+![Texto alternativo](C:\Users\cathe\OneDrive\Documentos\html/imagen2.png)
 ### Aproximacion Caso de uso 
-![Texto alternativo](C:\Users\cathe\OneDrive\Imágenes/imagen8.png) 
+![Texto alternativo](C:\Users\cathe\OneDrive\Documentos\html/imagen8.png) 
 ### Aproximacion Diagrama de flujo 
-![Texto alternativo](C:\Users\cathe\OneDrive\Imágenes/imagen9.png)
+![Texto alternativo](C:\Users\cathe\OneDrive\Documentos\html/imagen9.png)
 ### Aproximacion Speudocodigo
 **Algoritmo** Libreria
     Caracteres: id [30], nombres [30], direcciones[30], clientes [30]
