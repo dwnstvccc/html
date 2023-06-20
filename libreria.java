@@ -15,7 +15,7 @@ public class PromedioLibreria {
         int cantidadClientes = scanner.nextInt();
         scanner.nextLine(); // Limpiar el buffer
 
-        for (int a = 1; a <= cantidadClientess; a++) {
+        for (int a = 1; a <= cantidadClientes; a++) {
             System.out.println("\nClientes #" + a);
             System.out.print("Ingrese el número de identificación del cliente: ");
             int numeroIdentificacion = scanner.nextInt();
@@ -35,10 +35,10 @@ public class PromedioLibreria {
             }
 
             // Calcular el promedio 
-            double promedio = cantidad / 3;
+            double promedio = sumaCantidades / 3;
 
             // Imprimir los resultados
-            System.out.println("\nInformación del Cliente #" + i);
+            System.out.println("\nInformación del Cliente #" + a);
             System.out.println("Número de identificación: " + numeroIdentificacion);
             System.out.println("Nombre: " + nombre);
             System.out.println("Tiempo: " + tiempo);
