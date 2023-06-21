@@ -28,7 +28,7 @@ public class PromedioLibreria {
             String tiempo = scanner.nextLine();
 
             double sumaCantidades = 0;
-            for (int i = 1; j <= 3; i++) {
+            for (int i = 1; i <= 3; i++) {
                 System.out.print("Ingrese la cantidad de libros prestados " + i + " al cliente: ");
                 double cantidad = scanner.nextDouble();
                 sumaCantidades += cantidad;
