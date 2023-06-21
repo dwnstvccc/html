@@ -24,7 +24,7 @@ public class PromedioLibreria {
             System.out.print("Ingrese el nombre del cliente: ");
             String nombre = scanner.nextLine();
 
-            System.out.print("Ingrese el tiempo de prestamo de libros hecho al cliente: ");
+            System.out.print("Ingrese el tiempo de prestamo de libros hechos al cliente: ");
             String tiempo = scanner.nextLine();
 
             double sumaCantidades = 0;
